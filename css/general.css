@@ -1,0 +1,44 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Amiko', sans-serif;
+    overflow-x: hidden;
+}
+
+.menu {
+    width: 100%;
+    background-color: #930077;
+    position: fixed;
+    overflow: auto;
+    z-index: 10;
+}
+
+.menu a {
+    float: left;
+    width: 33.33%;
+    text-align: center;
+    padding: 1rem 0;
+    transition: all 0.3s ease;
+    color: black;
+    font-size: 1rem;
+}
+
+.menu a:hover {
+    background-color: #d8d9cf;
+}
+
+.contacto__links {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 1rem 0;
+}
+
+.pie {
+    background-color: #930077;
+    padding: 2rem 0;
+    text-align: center;
+}
+

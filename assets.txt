@@ -1,0 +1,14 @@
+azul
+#3a0088
+violeta
+#930077
+rosa 
+#e61c5d
+amarillo
+#ffe98a
+gris
+#d8d9cf
+enlace encriptador
+https://barlen738.github.io/encriptador_de_texto/
+enlace ahorcado
+https://barlen738.github.io/juego_ahorcado/

@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi portfolio - Barbara - </title>
+    <link rel="stylesheet" href="/css/reset.css">
+    <link rel="stylesheet" href="/css/general.css">
+    <link rel="stylesheet" href="/css/intro.css">
+    <link rel="stylesheet" href="/css/diome.css">
+    <link rel="stylesheet" href="/css/bye.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Amiko&family=Audiowide&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/04eace9da0.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+    <section>
+
+        <nav>
+
+            <div class="menu">
+                <a class="active" href="#sobre-mi"><i class="fa-solid fa-house"></i></a>
+                <a href="#portfolio"><i class="fa-sharp fa-solid fa-briefcase"></i></a>
+                <a href="#contacto"><i class="fa-solid fa-address-book"></i></a>
+
+            </div>
+
+        </nav>
+
+    </section>
+
+
+    <section id="sobre-mi">
+
+        <div>
+
+            <h1 class="sobre-mi__titular">¡Hola! <br> Soy diseñadora web</h1>
+
+            <div class="sobre-mi__contenido">
+
+                <div class="sobre-mi__descripcion">
+                    <p>Mi nombre es Bárbara y disfruto creando. Quiero ser el puente desde tus
+                        ideas y emociones. En el proceso
+                        comunicar de forma simple y atractiva todo lo que deseas ofrecer.</p>
+                </div>
+
+                <div class="sobre-mi__foto">
+                    <img src="/img/intro-removebg-preview.png" alt="" width="100%" height="auto">
+                </div>
+
+            </div>
+
+
+        </div>
+
+    </section>
+
+
+    <section id="portfolio">
+
+        <h2 class="portfolio__titular">Mis diseños</h2>
+
+        <div class="flex__container">
+
+            <div class="slide__container">
+
+                <div class="mySlides fade">
+                    <img src="/img/encriptador.png" alt="Vista previa del proyecto encriptador"
+                        class="proyecto__img proyecto__uno" />
+                </div>
+
+                <div class="mySlides fade">
+                    <img src="/img/ahorcado.png" alt="Vista previa del proyecto juego del ahorcado"
+                        class="proyecto__img proyecto__dos" />
+                </div>
+
+                <div class="mySlides fade">
+                    <img src="" alt="Vista previa del proyecto e-commerce" class="proyecto__img proyecto__tres" />
+                </div>
+
+                <a class="prev" onclick="plusSlides(-1)">
+                    < </a>
+                        <a class="next" onclick="plusSlides(+1)"> > </a>
+            </div>
+
+
+            <div class="puntitos" style="text-align: center">
+                <span class="dot" onclick="currenSlide(1)"></span>
+                <span class="dot" onclick="currentSlide(2)"></span>
+                <span class="dot" onclick="currentSlide(3)"></span>
+            </div>
+
+
+
+            <p class="project1">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Excepturi quaerat vel soluta
+                aperiam blanditiis asperiores? Earum blanditiis veritatis at ducimus accusamus totam nostrum
+                aperiam maxime accusantium voluptatum odio, deleniti illum? <a
+                    href="https://barlen738.github.io/encriptador_de_texto/" target="_blank">Visítalo</a></p>
+
+            <p class="project2">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Excepturi quaerat vel
+                soluta
+                aperiam blanditiis asperiores? Earum blanditiis veritatis at ducimus accusamus totam nostrum
+                aperiam maxime accusantium voluptatum odio, deleniti illum? <a href="https://barlen738.github.io/juego_ahorcado/
+                    " target="_blank">Visítalo</a></p>
+
+            <p class="project3">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Excepturi quaerat vel
+                soluta
+                aperiam blanditiis asperiores? Earum blanditiis veritatis at ducimus accusamus totam nostrum
+                aperiam maxime accusantium voluptatum odio, deleniti illum?</p>
+
+        </div>
+
+    </section>
+
+
+
+
+    <section id="contacto">
+
+        <div class="contacto__divi">
+
+            <h2 class="contacto__titular">¿Te gustó lo que viste?</h2>
+            <p class="contacto__descripcion">Mandame un mensaje y conversemos.</p>
+            <div class="contacto__links">
+                <a href="#">
+                    <div class="contacto__links--LI"><i class="fa-brands fa-linkedin fa-3x"></i></div>
+                </a>
+                <a href="#">
+                    <div class="contacto__links--IG"><i class="fa-brands fa-square-instagram fa-3x"></i></div>
+                </a>
+                <a href="#">
+                    <div class="contacto__links--FB"><i class="fa-brands fa-square-facebook fa-3x"></i></div>
+                </a>
+            </div>
+
+        </div>
+
+    </section>
+
+    <footer class="pie">
+        <div class="pie__logo"></div>
+        <p class="pie__descripcion">Diseñado con amor</p>
+    </footer>
+
+    <script src="dynamic.js"></script>
+
+</body>
+
+</html>
+<!--
+<div class="portfolio__trabajos">
+    <a href="#">
+        <div class="portfolio__trabajos--trabajo1"></div>
+    </a>
+    <p class="portfolio__descripcion--trabajo1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex
+        voluptates deleniti deserunt corrupti facilis commodi tempore similique necessitatibus porro
+        assumenda iusto atque maiores quam, vitae praesentium fuga alias rerum aperiam.</p>
+    <a href="#">
+        <div class="portfolio__trabajos--trabajo2"></div>
+    </a>
+    <p class="portfolio__descripcion--trabajo2">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+        Nesciunt rerum nam eveniet facilis ea accusantium dignissimos quae ducimus sint! Eum vitae soluta id
+        quod perspiciatis exercitationem illo magnam dolorum fugiat.</p>
+    <a href="#">
+        <div class="portfolio__trabajos--trabajo3"></div>
+    </a>
+    <p class="portfolio__descripcion--trabajo3">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+        Esse, tempora reprehenderit, vel blanditiis nemo inventore veritatis, beatae adipisci ut rem minus
+        impedit at quis officia alias unde. Iste, fugit placeat?</p>
+</div>
+-->
