@@ -5,6 +5,9 @@
 body {
     font-family: 'Amiko', sans-serif;
     overflow-x: hidden;
+    background-image: url("/img/backgroundT.png");
+    background-size: cover;
+
 }
 
 .menu {
@@ -41,4 +44,3 @@ body {
     padding: 2rem 0;
     text-align: center;
 }
-
