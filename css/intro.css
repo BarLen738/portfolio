@@ -2,10 +2,10 @@
 .sobre-mi__titular, .portfolio__titular, .contacto__titular {
     font-family: 'Audiowide', cursive;
     text-align: center;
-    font-size: 1.5rem;
+    font-size: 2rem;
     padding: 5rem 2rem 0;
     line-height: 2.6rem;
-    color: #3A0088;
+    color: #930077;
 }
 
 .sobre-mi__contenido {
