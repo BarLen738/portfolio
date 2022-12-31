@@ -33,3 +33,24 @@ function showSlides(n) {
   //marcar dot sig
   dots[slideIndex - 1].className += " active";
 }
+
+  //Capturar contenedor nav
+  var menu = document.getElementById("nav");
+
+  //Capturar botones del menu 
+  var menuLinks = menu.getElementsByClassName("menu-link");
+
+  //Recorrer todos los botones 
+  for (var i = 0; i < menuLinks.length; i++) {
+    //Función para escuchar el clicl
+    menuLinks[i].addEventListener("click", function() {
+      //Encontrar el elemento con clase active
+      var clicado = document.getElementsByClassName("active");
+      //Al hacer clic quitar la clase active
+      if (clicado.length > 0) {
+        clicado[0].className = clicado[0].className.replace(" active", "");
+      }
+      //Agregar clase active 
+      this.className += " active";
+    });
+  }
