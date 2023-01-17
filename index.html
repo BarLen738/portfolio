@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi portfolio - Barbara - </title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/general.css">
+    <link rel="stylesheet" href="css/intro.css">
+    <link rel="stylesheet" href="css/diome.css">
+    <link rel="stylesheet" href="css/bye.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Amiko&family=Audiowide&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/04eace9da0.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+    <section>
+
+        <nav>
+
+            <div class="menu" id="nav">
+                <a href="#sobre-mi"><button class="menu-link active"><i class="fa-solid fa-house"></i></button></a>
+                <a href="#portfolio"><button class="menu-link"><i class="fa-sharp fa-solid fa-briefcase"></i></button></a>
+                <a href="#contacto"><button class="menu-link"><i class="fa-solid fa-address-book"></i></button></a>
+
+            </div>
+
+        </nav>
+
+    </section>
+
+    <div class="background">
+
+        <section class="section" id="sobre-mi">
+
+            <div>
+
+                <h1 class="sobre-mi__titular">¡Hola! <br> Soy diseñadora web</h1>
+
+                <div class="sobre-mi__contenido">
+
+                    <div class="sobre-mi__descripcion">
+                        <p>Mi nombre es Bárbara y disfruto creando. Quiero ser el puente desde tus
+                            ideas y emociones. En el proceso
+                            comunicar de forma simple y atractiva todo lo que deseas ofrecer.</p>
+                    </div>
+
+                    <div class="sobre-mi__foto">
+                        <img src="img/intro-removebg-preview.png" alt="" width="100%" height="auto">
+                    </div>
+
+                </div>
+
+
+            </div>
+
+        </section>
+
+
+        <section class="section" id="portfolio">
+
+            <h2 class="portfolio__titular">Mis diseños</h2>
+
+            <div class="flex__container">
+
+                <div class="slide__container">
+
+                    <div class="mySlides fade">
+                        <img src="img/encriptador.png" alt="Vista previa del proyecto encriptador"
+                            class="proyecto__img proyecto__uno" />
+                    </div>
+
+                    <div class="mySlides fade">
+                        <img src="img/ahorcado.png" alt="Vista previa del proyecto juego del ahorcado"
+                            class="proyecto__img proyecto__dos" />
+                    </div>
+
+                    <div class="mySlides fade">
+                        <img src="img/e_learning_Alura.png" alt="Vista previa del proyecto e-learning" class="proyecto__img proyecto__tres" />
+                    </div>
+
+                    <a class="prev" onclick="plusSlides(-1)">
+                    </a>
+                    <a class="next" onclick="plusSlides(+1)"> > </a>
+                </div>
+
+
+                <div class="puntitos" style="text-align: center">
+                    <span class="dot" onclick="currenSlide(1)"></span>
+                    <span class="dot" onclick="currentSlide(2)"></span>
+                    <span class="dot" onclick="currentSlide(3)"></span>
+                </div>
+
+
+
+                <p class="projects project1">Encriptador de texto. Genera tus mensajes en código secreto. Las
+                    tecnologías utilizadas fueron: HTML, CSS, Javascript y diseño responsivo (adaptable
+                    mobile).
+                    <a href="https://barlen738.github.io/encriptador_de_texto/" target="_blank">Visítalo</a>
+                </p>
+                <p class="projects project2">Juego del ahorcado. Diviértete adivinando la palabra secreta, y agrega tus propias
+                    palabras. Las tecnologías utilizadas fueron: HTML, CSS, JavaScript y diseño responsivo (adaptable
+                    mobile).
+                    <a href="https://barlen738.github.io/juego_ahorcado/
+                    " target="_blank">Visítalo</a>
+                </p>
+
+                <p class="projects project3">E-learning. Ofrece cursos en línea con un diseño funcional y estético. Las
+                    tecnologías utilizadas fueron: HTML, CSS, JavaScript y diseño responsivo (adaptable mobile).
+                    <a href="https://barlen738.github.io/E-learning_Alura/" target="_blank">Visítalo</a>
+                </p>
+
+            </div>
+
+        </section>
+
+
+
+
+        <section class="section" id="contacto">
+
+            <div class="contacto__divi">
+
+                <h2 class="contacto__titular">¿Te gustó lo que viste?</h2>
+                <p class="contacto__descripcion">Mandame un mensaje y conversemos.</p>
+                <div class="contacto__links">
+                    <a href="https://www.linkedin.com/in/barbara-lencinas/" target="_blank">
+                        <div class="contacto__links--LI"><i class="fa-brands fa-linkedin fa-3x"></i></div>
+                    </a>
+                    <a href="https://github.com/BarLen738" target="_blank">
+                        <div class="contacto__links--IG"><i class="fa-brands fa-square-github fa-3x"></i></div>
+                    </a>
+                    <!-- <a href="#">
+                        <div class="contacto__links--FB"><i class="fa-brands fa-square-facebook fa-3x"></i></div>
+                    </a> -->
+                </div>
+
+            </div>
+
+
+
+        </section>
+    </div>
+
+    <footer class="pie">
+        <div class="pie__logo">
+            <img src="img/barbyCodes-removebg-preview.png" alt="Logo">
+        </div>
+        <p class="pie__descripcion">Copyright &#169 2022 All rights reserved</p>
+        <p class="pie__descripcion">Diseñado con &#128156</p>
+    </footer>
+
+    <script src="dynamic.js"></script>
+
+
+</body>
+
+</html>
