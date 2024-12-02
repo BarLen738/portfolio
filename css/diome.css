@@ -19,9 +19,7 @@
   object-fit: fill;
 }
 
-.project1,
-.project2,
-.project3 {
+.projects {
   width: 100%;
   padding: 1rem 2rem;
   font-size: .8rem;
@@ -98,9 +96,7 @@
     max-height: 520px;
   }
 
-  .project1,
-  .project2,
-  .project3 {
+  .projects {
     font-size: 1rem;
     letter-spacing: .05rem;
   }
@@ -119,9 +115,7 @@
     max-height: 600px;
   }
 
-  .project1,
-  .project2,
-  .project3 {
+  .projects {
     font-size: 1.2rem;
     letter-spacing: .06rem;
   }
@@ -149,19 +143,21 @@
     display: none;
   }
 
-  .project1,
-  .project2,
-  .project3 {
+  .projects {
     align-self: center;
     width: 50%;
     margin: 1rem 2rem 0;
-    font-size: 1.7rem;
+    font-size: 1.2rem;
     letter-spacing: .06rem;
     line-height: 2rem;
   }
 
   .project2,
-  .project3 {
+  .project3, 
+  .project4, 
+  .project5,
+  .project6,
+  .project7 {
     /*modificar luego con JS*/
     display: none;
   }

@@ -21,7 +21,7 @@
     padding: 0 0 0 2rem;
     max-width: 40%;
     max-height: 60vh;
-    font-size: .8rem;
+    font-size: .77rem;
     line-height: 1.2rem;
 }
 
@@ -41,7 +41,7 @@
     }
 
     .sobre-mi__descripcion {
-        font-size: 1rem;
+        font-size: .85rem;
         letter-spacing: .05rem;
         width: 55%;
     }
@@ -59,7 +59,7 @@
     }
 
     .sobre-mi__descripcion {
-        font-size: 1.2rem;
+        font-size: .89rem;
         letter-spacing: .06rem;
         width: 30%;
     }
@@ -76,7 +76,7 @@
     }
 
     .sobre-mi__descripcion {
-        font-size: 1.7rem;
+        font-size: .95rem;
         letter-spacing: .06rem;
         line-height: 2rem;
 
